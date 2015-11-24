@@ -3,12 +3,12 @@ Docker! Skype! PulseAudio!
 
 Run Skype inside an isolated [Docker](http://www.docker.io) container on your Linux desktop! See its sights via X11 forwarding! Hear its sounds through the magic of PulseAudio and SSH tunnels!
 
-Known Issue: While audio works flawlessly during calls and Skype is perfectly usable, the notification sounds such as call ringing do not work.
 
-Docker index
-============
+Run it
+======
 
-The easiest method to get Skype in docker is to download the already prepared image from the official Docker image index repository: [tomparys/skype](https://index.docker.io/u/tomparys/skype/). Follow further instructions there.
+  * make (build the docker image)
+  * make run (launch an instance)
 
 Building Instructions
 =====================
